@@ -53,7 +53,7 @@ Fill the gaps in the code snippet so that the program compiles and prints: "Hell
             public static void main(String[] args) {
                   int x = 50;
                   int y = 50;
-                 for(x == y) {
+                 if(x == y) {
                          System.out.println("Hello, World!");
                   }
            }
