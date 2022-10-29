@@ -6,6 +6,9 @@ which will have "true" in condition part.  Program should be implemented in code
 
         public class ConditionalTruePrinter {
             public static void main(String[] args) {
+            if(true){
+            System.out.println(true);
+            }
             }
         }
 
@@ -17,6 +20,12 @@ implemented in code snippet:
 
         public class ConditionalFalsePrinter {
             public static void main(String[] args) {
+            if(false){
+            System.out.println(true);
+            }
+            else  
+            {
+            System.out.println(false);}
             }
         } 
 
@@ -29,10 +38,10 @@ code snippet:
 
         public class NoBracketsPrinter {
             public static void main(String[] args) {
-               if(false) 
+               if(false){
                   System.out.println("The statement is true");
                System.out.println("I'm out of checking");
-            }
+            }}
         }
 
 
@@ -44,7 +53,7 @@ Fill the gaps in the code snippet so that the program compiles and prints: "Hell
             public static void main(String[] args) {
                   int x = 50;
                   int y = 50;
-                  __ (x __ y) {
+                 for(x == y) {
                          System.out.println("Hello, World!");
                   }
            }
@@ -58,6 +67,10 @@ case print true) or no (print false) using if-else block. The program should be 
 
         public class PositiveNumberDeterminer {
            public void isPositive(int numberToBeDetermined) {
+           if(numberToBeDetermined>0){
+           System.out.println(true);}
+           else 
+               System.out.println(false);
            }
         }
 
